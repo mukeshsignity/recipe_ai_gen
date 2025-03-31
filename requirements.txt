@@ -112,5 +112,5 @@ ultralytics-thop
 urllib3
 uvicorn
 yarl
-pyaudio
 speechrecognition
+sounddevice
