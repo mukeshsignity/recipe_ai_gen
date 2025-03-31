@@ -53,7 +53,7 @@ networkx
 numpy
 onnxruntime
 openai
-opencv-python
+#opencv-python
 opencv-python-headless
 packaging
 pandas
