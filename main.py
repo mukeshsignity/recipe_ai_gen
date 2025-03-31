@@ -39,4 +39,7 @@ def custom_redoc_ui():
     from fastapi.openapi.docs import get_redoc_html
     return get_redoc_html(openapi_url="/openapi.json", title="API Documentation")
 
+if __name__ == "__main__":
+    uvicorn.run(app, host="0.0.0.0", port=8000) 
+
 
